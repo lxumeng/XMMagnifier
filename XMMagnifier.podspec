@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
     1.0.0/2023-12-01: 放大镜1.0版本
     DESC
     
-    s.homepage         = 'https://github.com/lxmeng/XMMagnifier'
+    s.homepage         = 'https://github.com/lxumeng/XMMagnifier.git'
     # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
-    s.author           = { 'lxmeng' => '15731206413@163.com' }
-    s.source           = { :git => 'https://github.com/lxmeng/XMMagnifier.git', :tag => s.version.to_s }
+    s.author           = { 'lxumeng' => '15731206413@163.com' }
+    s.source           = { :git => 'https://github.com/lxumeng/XMMagnifier.git', :tag => s.version.to_s }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     
     s.ios.deployment_target = '12.0'
