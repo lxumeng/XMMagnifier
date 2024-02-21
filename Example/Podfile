@@ -1,0 +1,14 @@
+#use_frameworks!
+use_modular_headers!
+
+platform :ios, '12.0'
+
+target 'XMMagnifier_Example' do
+  pod 'XMMagnifier', :path => '../'
+
+  target 'XMMagnifier_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

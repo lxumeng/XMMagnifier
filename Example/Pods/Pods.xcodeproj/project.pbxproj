@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180EC3955F79C29C1CCA3271376E0AB7 /* Pods-XMMagnifier_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D45CE0DEEB773CD7AFEA22BA32F0190 /* Pods-XMMagnifier_Example-dummy.m */; };
+		2C4AC3D784491D1D528FA1025FF7279B /* XMMagnifier-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E61B5B4AF647FE478AD2921199D5DC3 /* XMMagnifier-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2E035838E1D950B7223FF90DE2D7B372 /* XMMagnifier.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB91F4F5763050072F920891987CC1F /* XMMagnifier.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5461A049CB0B04578E0C45CA49646546 /* Pods-XMMagnifier_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CCBB247EF30BB0D85BCBA86BA26BEE /* Pods-XMMagnifier_Tests-dummy.m */; };
+		E1F3BBA4818BE6ABCAB8EDD1D137D125 /* XMMagnifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC7E10366906DB32524FAB60D6FCAB5 /* XMMagnifier.m */; };
+		F7DD4F1C2CED9FE9777288D0E5FE304B /* XMMagnifier-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 103BA6C482DDAB450BF3B0F8FE98B63B /* XMMagnifier-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		884C26F2A39D199CB09EDF806672DC21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84123869C54D8C20C9567A85FEA9C86D;
+			remoteInfo = XMMagnifier;
+		};
+		B3B9C6F85F0B7A24542A144E56B009D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CF0739D33B136CB1CDFBFCD3F091D82;
+			remoteInfo = "Pods-XMMagnifier_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004D07449D1B2262A823B09000A0C8BE /* XMMagnifier.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMMagnifier.debug.xcconfig; sourceTree = "<group>"; };
+		02A7EF2A5813EF3FEFE05AF3D802B97B /* XMMagnifier.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMMagnifier.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		103BA6C482DDAB450BF3B0F8FE98B63B /* XMMagnifier-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMMagnifier-dummy.m"; sourceTree = "<group>"; };
+		1791508DECCFF763473A57EEB66EFF4A /* Pods-XMMagnifier_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMMagnifier_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1841BBC2AD32C41B49515D71CB2AC410 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2016863744E07E5A6E78C98F7E588DE4 /* Pods-XMMagnifier_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMMagnifier_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		26CCBB247EF30BB0D85BCBA86BA26BEE /* Pods-XMMagnifier_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMMagnifier_Tests-dummy.m"; sourceTree = "<group>"; };
+		35EE959565C95C555911748E4633C2CD /* XMMagnifier.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMMagnifier.release.xcconfig; sourceTree = "<group>"; };
+		3DAFCBDCA85378FBF19C5BA80A38ECDB /* Pods-XMMagnifier_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMMagnifier_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F3F1BF5587F42A6C87D405C3E5850A2 /* Pods-XMMagnifier_Tests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-XMMagnifier_Tests"; path = "libPods-XMMagnifier_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D45CE0DEEB773CD7AFEA22BA32F0190 /* Pods-XMMagnifier_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMMagnifier_Example-dummy.m"; sourceTree = "<group>"; };
+		4E7F2F8D48BA11F804EAD2051B09D99B /* XMMagnifier */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = XMMagnifier; path = libXMMagnifier.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		591DDF659478A9230A70972C78F5DC1C /* Pods-XMMagnifier_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMMagnifier_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		61BD0203C578D64E0476CA9412CF5091 /* Pods-XMMagnifier_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMMagnifier_Example.release.xcconfig"; sourceTree = "<group>"; };
+		68ADF9C38470D52179A40F0D3B4ED466 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6C2CF426ADC3C1CD24C864EC62FBAC77 /* Pods-XMMagnifier_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMMagnifier_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		75AE51229923D7ED9F7C261626B2ED9C /* XMMagnifier-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMMagnifier-prefix.pch"; sourceTree = "<group>"; };
+		928E96363BE1B24DADF4642229C1F68C /* Pods-XMMagnifier_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMMagnifier_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E61B5B4AF647FE478AD2921199D5DC3 /* XMMagnifier-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMMagnifier-umbrella.h"; sourceTree = "<group>"; };
+		9FC7E10366906DB32524FAB60D6FCAB5 /* XMMagnifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMMagnifier.m; path = XMMagnifier/Classes/XMMagnifier.m; sourceTree = "<group>"; };
+		A3B3EC81C79096F221F909FB4861A712 /* Pods-XMMagnifier_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMMagnifier_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CCB91F4F5763050072F920891987CC1F /* XMMagnifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMMagnifier.h; path = XMMagnifier/Classes/XMMagnifier.h; sourceTree = "<group>"; };
+		D6AE670BAECB6E4FFE63C9A33433D5E9 /* Pods-XMMagnifier_Example */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-XMMagnifier_Example"; path = "libPods-XMMagnifier_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC257D578D671461CC66A11C727EEFD7 /* XMMagnifier.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMMagnifier.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1116FA6119DC19941577D9FBD2EF7D39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D300CDD1751CE2918E8AC69BD339A5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91965B831B76A6D74AC6415A63B46864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		300693986EC23AA0601D3B6939665ECA /* Pods-XMMagnifier_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1791508DECCFF763473A57EEB66EFF4A /* Pods-XMMagnifier_Tests-acknowledgements.markdown */,
+				591DDF659478A9230A70972C78F5DC1C /* Pods-XMMagnifier_Tests-acknowledgements.plist */,
+				26CCBB247EF30BB0D85BCBA86BA26BEE /* Pods-XMMagnifier_Tests-dummy.m */,
+				2016863744E07E5A6E78C98F7E588DE4 /* Pods-XMMagnifier_Tests.debug.xcconfig */,
+				A3B3EC81C79096F221F909FB4861A712 /* Pods-XMMagnifier_Tests.release.xcconfig */,
+			);
+			name = "Pods-XMMagnifier_Tests";
+			path = "Target Support Files/Pods-XMMagnifier_Tests";
+			sourceTree = "<group>";
+		};
+		40C36B34158C7028C6B503734F8F0A40 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EA8346E0D98341CCD653F93325F6BB2 /* XMMagnifier */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5D720B566DD526B2C7176095016E7B4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6AE670BAECB6E4FFE63C9A33433D5E9 /* Pods-XMMagnifier_Example */,
+				3F3F1BF5587F42A6C87D405C3E5850A2 /* Pods-XMMagnifier_Tests */,
+				4E7F2F8D48BA11F804EAD2051B09D99B /* XMMagnifier */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EA8346E0D98341CCD653F93325F6BB2 /* XMMagnifier */ = {
+			isa = PBXGroup;
+			children = (
+				CCB91F4F5763050072F920891987CC1F /* XMMagnifier.h */,
+				9FC7E10366906DB32524FAB60D6FCAB5 /* XMMagnifier.m */,
+				EA8F7719CCCEDD037AA9562D40E69EFB /* Pod */,
+				E40D95FFED3FC7B970BD0251D0CD42AD /* Support Files */,
+			);
+			name = XMMagnifier;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A9A656E20027D07796041DB9CA81AC5D /* Pods-XMMagnifier_Example */ = {
+			isa = PBXGroup;
+			children = (
+				6C2CF426ADC3C1CD24C864EC62FBAC77 /* Pods-XMMagnifier_Example-acknowledgements.markdown */,
+				3DAFCBDCA85378FBF19C5BA80A38ECDB /* Pods-XMMagnifier_Example-acknowledgements.plist */,
+				4D45CE0DEEB773CD7AFEA22BA32F0190 /* Pods-XMMagnifier_Example-dummy.m */,
+				928E96363BE1B24DADF4642229C1F68C /* Pods-XMMagnifier_Example.debug.xcconfig */,
+				61BD0203C578D64E0476CA9412CF5091 /* Pods-XMMagnifier_Example.release.xcconfig */,
+			);
+			name = "Pods-XMMagnifier_Example";
+			path = "Target Support Files/Pods-XMMagnifier_Example";
+			sourceTree = "<group>";
+		};
+		CF0800883156134AEC576E3A04A0B8FD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9A656E20027D07796041DB9CA81AC5D /* Pods-XMMagnifier_Example */,
+				300693986EC23AA0601D3B6939665ECA /* Pods-XMMagnifier_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				40C36B34158C7028C6B503734F8F0A40 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				5D720B566DD526B2C7176095016E7B4F /* Products */,
+				CF0800883156134AEC576E3A04A0B8FD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E40D95FFED3FC7B970BD0251D0CD42AD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC257D578D671461CC66A11C727EEFD7 /* XMMagnifier.modulemap */,
+				103BA6C482DDAB450BF3B0F8FE98B63B /* XMMagnifier-dummy.m */,
+				75AE51229923D7ED9F7C261626B2ED9C /* XMMagnifier-prefix.pch */,
+				9E61B5B4AF647FE478AD2921199D5DC3 /* XMMagnifier-umbrella.h */,
+				004D07449D1B2262A823B09000A0C8BE /* XMMagnifier.debug.xcconfig */,
+				35EE959565C95C555911748E4633C2CD /* XMMagnifier.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XMMagnifier";
+			sourceTree = "<group>";
+		};
+		EA8F7719CCCEDD037AA9562D40E69EFB /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1841BBC2AD32C41B49515D71CB2AC410 /* LICENSE */,
+				68ADF9C38470D52179A40F0D3B4ED466 /* README.md */,
+				02A7EF2A5813EF3FEFE05AF3D802B97B /* XMMagnifier.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8F433153031038AD1C4E1A8B01052DFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40FBC910BB888E35EE47000CCC514F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E035838E1D950B7223FF90DE2D7B372 /* XMMagnifier.h in Headers */,
+				2C4AC3D784491D1D528FA1025FF7279B /* XMMagnifier-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B09D8348EB3D4607EA6897BDCCF83D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2CF0739D33B136CB1CDFBFCD3F091D82 /* Pods-XMMagnifier_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8423D63B0A82CE1ED75A8CD5BE64CEEE /* Build configuration list for PBXNativeTarget "Pods-XMMagnifier_Example" */;
+			buildPhases = (
+				8F433153031038AD1C4E1A8B01052DFD /* Headers */,
+				B846B616351485B1A952241CCD3BB323 /* Sources */,
+				1116FA6119DC19941577D9FBD2EF7D39 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A0D795915AF0DFFA06591E3D551D646 /* PBXTargetDependency */,
+			);
+			name = "Pods-XMMagnifier_Example";
+			productName = "Pods-XMMagnifier_Example";
+			productReference = D6AE670BAECB6E4FFE63C9A33433D5E9 /* Pods-XMMagnifier_Example */;
+			productType = "com.apple.product-type.library.static";
+		};
+		84123869C54D8C20C9567A85FEA9C86D /* XMMagnifier */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D799DC9A3CE1F7D86F78224E5CC9A0CA /* Build configuration list for PBXNativeTarget "XMMagnifier" */;
+			buildPhases = (
+				A40FBC910BB888E35EE47000CCC514F1 /* Headers */,
+				6EEEFFB617D7A7F4833581743498BFE7 /* Sources */,
+				8D300CDD1751CE2918E8AC69BD339A5A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XMMagnifier;
+			productName = XMMagnifier;
+			productReference = 4E7F2F8D48BA11F804EAD2051B09D99B /* XMMagnifier */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EC1DA678500039723E4C5CDDB9891A3A /* Pods-XMMagnifier_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354CBBAEBF04479A1CC372BCB0D46C31 /* Build configuration list for PBXNativeTarget "Pods-XMMagnifier_Tests" */;
+			buildPhases = (
+				E4B09D8348EB3D4607EA6897BDCCF83D /* Headers */,
+				4630EFEDCA9A1FB685B7465E0361E6BF /* Sources */,
+				91965B831B76A6D74AC6415A63B46864 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10291ED2AE1726A95959CBAF900A6C5C /* PBXTargetDependency */,
+			);
+			name = "Pods-XMMagnifier_Tests";
+			productName = "Pods-XMMagnifier_Tests";
+			productReference = 3F3F1BF5587F42A6C87D405C3E5850A2 /* Pods-XMMagnifier_Tests */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5D720B566DD526B2C7176095016E7B4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CF0739D33B136CB1CDFBFCD3F091D82 /* Pods-XMMagnifier_Example */,
+				EC1DA678500039723E4C5CDDB9891A3A /* Pods-XMMagnifier_Tests */,
+				84123869C54D8C20C9567A85FEA9C86D /* XMMagnifier */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4630EFEDCA9A1FB685B7465E0361E6BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5461A049CB0B04578E0C45CA49646546 /* Pods-XMMagnifier_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EEEFFB617D7A7F4833581743498BFE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1F3BBA4818BE6ABCAB8EDD1D137D125 /* XMMagnifier.m in Sources */,
+				F7DD4F1C2CED9FE9777288D0E5FE304B /* XMMagnifier-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B846B616351485B1A952241CCD3BB323 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180EC3955F79C29C1CCA3271376E0AB7 /* Pods-XMMagnifier_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10291ED2AE1726A95959CBAF900A6C5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XMMagnifier_Example";
+			target = 2CF0739D33B136CB1CDFBFCD3F091D82 /* Pods-XMMagnifier_Example */;
+			targetProxy = B3B9C6F85F0B7A24542A144E56B009D3 /* PBXContainerItemProxy */;
+		};
+		2A0D795915AF0DFFA06591E3D551D646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XMMagnifier;
+			target = 84123869C54D8C20C9567A85FEA9C86D /* XMMagnifier */;
+			targetProxy = 884C26F2A39D199CB09EDF806672DC21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C4DD37782932B80C0467FB7055BB8C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2016863744E07E5A6E78C98F7E588DE4 /* Pods-XMMagnifier_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3B39773E9F1697B526A681BD3BBE588A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3B3EC81C79096F221F909FB4861A712 /* Pods-XMMagnifier_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ED9172F1B6CE287E12D7DA444872EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 004D07449D1B2262A823B09000A0C8BE /* XMMagnifier.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/XMMagnifier/XMMagnifier-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/XMMagnifier/XMMagnifier.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = XMMagnifier;
+				PRODUCT_NAME = XMMagnifier;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A39F7D11E97DF5D1FA95C575330EB3C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61BD0203C578D64E0476CA9412CF5091 /* Pods-XMMagnifier_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5AD317A1FA87731AE4BDF353B523CC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35EE959565C95C555911748E4633C2CD /* XMMagnifier.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/XMMagnifier/XMMagnifier-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MODULEMAP_FILE = Headers/Public/XMMagnifier/XMMagnifier.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = XMMagnifier;
+				PRODUCT_NAME = XMMagnifier;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA5B7E4B7D4AF0373A5DEE181ACFA4FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 928E96363BE1B24DADF4642229C1F68C /* Pods-XMMagnifier_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		354CBBAEBF04479A1CC372BCB0D46C31 /* Build configuration list for PBXNativeTarget "Pods-XMMagnifier_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C4DD37782932B80C0467FB7055BB8C8 /* Debug */,
+				3B39773E9F1697B526A681BD3BBE588A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8423D63B0A82CE1ED75A8CD5BE64CEEE /* Build configuration list for PBXNativeTarget "Pods-XMMagnifier_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5B7E4B7D4AF0373A5DEE181ACFA4FE /* Debug */,
+				A39F7D11E97DF5D1FA95C575330EB3C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D799DC9A3CE1F7D86F78224E5CC9A0CA /* Build configuration list for PBXNativeTarget "XMMagnifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ED9172F1B6CE287E12D7DA444872EFD /* Debug */,
+				C5AD317A1FA87731AE4BDF353B523CC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

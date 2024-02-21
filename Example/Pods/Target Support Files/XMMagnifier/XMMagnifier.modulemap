@@ -1,0 +1,6 @@
+module XMMagnifier {
+  umbrella header "XMMagnifier-umbrella.h"
+
+  export *
+  module * { export * }
+}

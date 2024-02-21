@@ -1,0 +1,16 @@
+PODS:
+  - XMMagnifier (0.1.0)
+
+DEPENDENCIES:
+  - XMMagnifier (from `../`)
+
+EXTERNAL SOURCES:
+  XMMagnifier:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XMMagnifier: 0ab2005bfa782f4063bdc138f95a5807c185feed
+
+PODFILE CHECKSUM: 90c747672e09637bba5ef721b60f432f9f4ccefa
+
+COCOAPODS: 1.15.0

@@ -1,0 +1,1 @@
+../../../../../XMMagnifier/Classes/XMMagnifier.h

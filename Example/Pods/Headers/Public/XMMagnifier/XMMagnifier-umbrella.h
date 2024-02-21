@@ -1,0 +1,1 @@
+../../../Target Support Files/XMMagnifier/XMMagnifier-umbrella.h
