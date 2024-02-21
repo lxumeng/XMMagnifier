@@ -9,7 +9,11 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+![image](https://raw.githubusercontent.com/lxumeng/XMPicture/main/Magnifier.gif)
+
 ## Requirements
+
+The minimum supported OS version is iOS12.
 
 ## Installation
 
@@ -22,7 +26,7 @@ pod 'XMMagnifier'
 
 ## Author
 
-lxmeng, 15731206413@163.com
+lxumeng, 15731206413@163.com
 
 ## License
 
