@@ -18,7 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 默认为keyWindow，如需放大别的window，请自行传入
 @property (nonatomic, strong) UIWindow *relativeWindow;
 
-/// 单利，默认Frame(0, 100, 50, 50)，该控件继承自UIWindow，默认隐藏，修改hidden属性或调用makeKeyAndVisible即可。
+/// 单例，默认Frame(0, 100, 50, 50)，该控件继承自UIWindow，默认隐藏，修改hidden属性或调用makeKeyAndVisible即可。
 + (instancetype)shared;
 
 /// 释放，如果只是想控制显示/隐藏，请用UIview的hidden属性

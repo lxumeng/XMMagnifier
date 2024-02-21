@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'XMMagnifier'
-    s.version          = '1.0.1'
+    s.version          = '1.0.2'
     s.summary          = '放大镜，可放大屏幕上的内容，最后更新于2023-01-01 18:00:00.'
     
     # This description is used to generate tags and improve search results.
