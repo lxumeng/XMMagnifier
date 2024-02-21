@@ -17,14 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view, typically from a nib.
 }
 
 - (IBAction)clickSwitch:(UISwitch *)sender {
-//    [XMMagnifier shared].frame = CGRectMake(0, 50, 80, 80);
-//    [XMMagnifier shared].layer.cornerRadius = 40;
-//    [XMMagnifier shared].magnification = 2.0;
-    sender.isOn ? [XMMagnifier shared] : [XMMagnifier remove];
+    //    [XMMagnifier shared].frame = CGRectMake(0, 50, 80, 80);
+    //    [XMMagnifier shared].layer.cornerRadius = 40;
+    //    [XMMagnifier shared].magnification = 2.0;
+    [XMMagnifier shared].hidden = !sender.isOn;
 }
 
 - (void)didReceiveMemoryWarning {

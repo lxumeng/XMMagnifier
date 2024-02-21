@@ -34,7 +34,7 @@ const CGFloat borderWidth  = 2.0;  // 默认边宽
     return _instance;
 }
 
-+ (void)remove {
+- (void)destroy {
     _onceToken = 0;
     _instance = nil;
 }
@@ -48,8 +48,6 @@ const CGFloat borderWidth  = 2.0;  // 默认边宽
         self.layer.cornerRadius = cornerRadius;
         self.layer.masksToBounds = YES;
         self.windowLevel = UIWindowLevelStatusBar + 1;
-        self.rootViewController = [[UIViewController alloc] init];
-        [self makeKeyAndVisible];
         // 延时，避免keyWindow显示前设置
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             if (@available(iOS 13.0, *)) {
