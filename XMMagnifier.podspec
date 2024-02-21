@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
     s.name             = 'XMMagnifier'
     s.version          = '1.0.0'
-    s.summary          = '放大镜，可放大屏幕上的内容，最后更新于2023-12-01 18:00:00.'
+    s.summary          = '放大镜，可放大屏幕上的内容，最后更新于2023-01-01 18:00:00.'
     
     # This description is used to generate tags and improve search results.
     #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     #   * Finally, don't worry about the indent, CocoaPods strips it!
     
     s.description      = <<-DESC
-    1.0.0/2023-12-01: 放大镜1.0版本
+    1.0.0/2024-01-01: 放大镜1.0.0版本
     DESC
     
     s.homepage         = 'https://github.com/lxumeng/XMMagnifier.git'
@@ -28,8 +28,8 @@ Pod::Spec.new do |s|
     s.source           = { :git => 'https://github.com/lxumeng/XMMagnifier.git', :tag => s.version.to_s }
     # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
     
-    s.ios.deployment_target = '12.0'
-    s.platform = :ios, '12.0'
+    s.ios.deployment_target = '11.0'
+    s.platform = :ios, '11.0'
     s.requires_arc = true
     
     # 使用源码方式引入
