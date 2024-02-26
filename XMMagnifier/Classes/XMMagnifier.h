@@ -1,5 +1,5 @@
 //
-//  XXUIMagnifier.h
+//  XMMagnifier.h
 //  XMMagnifier
 //
 //  Created by lixumeng on 2022/3/24.
