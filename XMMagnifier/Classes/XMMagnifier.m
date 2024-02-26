@@ -1,6 +1,6 @@
 //
 //  XXUIMagnifier.m
-//  XXMagnifierService
+//  XMMagnifier
 //
 //  Created by lixumeng on 2022/3/24.
 //
@@ -12,8 +12,8 @@
 static dispatch_once_t _onceToken;
 static XMMagnifier    *_instance;
 
-const CGFloat cornerRadius = 25.0; // 默认圆角
-const CGFloat borderWidth  = 2.0;  // 默认边宽
+static const CGFloat cornerRadius = 25.0; // 默认圆角
+static const CGFloat borderWidth  = 2.0;  // 默认边宽
 
 @interface XMMagnifier ()
 
